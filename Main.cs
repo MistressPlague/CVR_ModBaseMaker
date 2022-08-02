@@ -47,7 +47,7 @@ namespace ModBaseMaker
                 return;
             }
 
-            if (!File.Exists(textBox1.Text + "\\ChilloutVR_Dat\\Managed\\Assembly-CSharp.dll"))
+            if (!File.Exists(textBox1.Text + "\\ChilloutVR_Data\\Managed\\Assembly-CSharp.dll"))
             {
                 MessageBox.Show("Invalid ChilloutVR Folder!", "Error");
 
